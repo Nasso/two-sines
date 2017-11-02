@@ -1,5 +1,8 @@
 body {
     background: #ddd;
+	margin: 16px;
+	
+	text-align: center;
 }
 
 ul {
@@ -7,17 +10,53 @@ ul {
     display: inline-block;
     background: #eee;
     padding: 8px;
+	
+	margin: 0px;
+	height: 496px;
+	
+	list-style: none;
 }
 
 ul label {
     display: inline-block;
     margin-right: 8px;
     width: 70px;
+	text-align: right;
+}
+
+ul span {
+    display: inline-block;
+    width: 64px;
+	text-align: center;
+	
+	background: #ddd;
 }
 
 ul * {
     color: #222;
     vertical-align: bottom;
+}
+
+#clrbtn {
+	margin: 1px 0px;
+	padding: 8px 0px;
+	background: #ddd;
+	
+	border: 1px solid dodgerblue;
+	box-shadow: 0px 0px 0px dodgerblue inset;
+	
+	transition: box-shadow 200ms, background 200ms;
+}
+
+#clrbtn:hover {
+	background: #D5DADE;
+	cursor: default;
+	
+	user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
 }
 
 #cvs {

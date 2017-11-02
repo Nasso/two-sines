@@ -10,13 +10,15 @@
 		<canvas id="cvs" width="512" height="512">
 		</canvas>
 		<ul>
-			<label for="speedx">Speed X:</label><input name="speedx" type="range" id="i_speedx"><br>
-			<label for="speedy">Speed Y:</label><input name="speedy" type="range" id="i_speedy"><br>
-			<label for="phase">Phase:</label><input name="phase" type="range" id="i_phase"><br>
-			<br>
-			<label for="dotsize">Dot size:</label><input name="dotsize" type="range" id="i_dotsize"><br>
-			<label for="scalex">Scale X:</label><input name="scalex" type="range" id="i_scalex"><br>
-			<label for="scaley">Scale Y:</label><input name="scaley" type="range" id="i_scaley">
+			<li><label for="speedx">Speed X:</label><input name="speedx" type="range" id="i_speedx"><span id="v_speedx"></span></li>
+			<li><label for="speedy">Speed Y:</label><input name="speedy" type="range" id="i_speedy"><span id="v_speedy"></span></li>
+			<li><label for="phase">Phase:</label><input name="phase" type="range" id="i_phase"><span id="v_phase"></span></li>
+			<br />
+			<li><label for="dotsize">Dot size:</label><input name="dotsize" type="range" id="i_dotsize"><span id="v_dotsize"></span></li>
+			<li><label for="scalex">Scale X:</label><input name="scalex" type="range" id="i_scalex"><span id="v_scalex"></span></li>
+			<li><label for="scaley">Scale Y:</label><input name="scaley" type="range" id="i_scaley"><span id="v_scaley"></span></li>
+			<li><label for="trace">Trace:</label><input name="trace" type="range" id="i_trace"><span id="v_trace"></span></li>
+			<li><div id="clrbtn">CLEAR</div></li>
 		</ul>
 		
 		<script src="main.js" charset="utf-8"></script>
