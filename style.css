@@ -1,0 +1,25 @@
+body {
+    background: #ddd;
+}
+
+ul {
+    vertical-align: top;
+    display: inline-block;
+    background: #eee;
+    padding: 8px;
+}
+
+ul label {
+    display: inline-block;
+    margin-right: 8px;
+    width: 70px;
+}
+
+ul * {
+    color: #222;
+    vertical-align: bottom;
+}
+
+#cvs {
+    display: inline-block;
+}
