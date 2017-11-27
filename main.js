@@ -101,6 +101,7 @@ for(let k in inp) {
 	const i = inp[k];
 	const s = inpsettings[k];
 	const v = inpv[k];
+	const t = k;
 	
 	i.min = s.min;
 	i.max = s.max;
@@ -109,7 +110,7 @@ for(let k in inp) {
 	v.innerHTML = i.value;
 	
 	i.addEventListener("change", () => {
-		o[k] = i.value;
+		o[t] = i.value;
 		reset();
 	});
 	
